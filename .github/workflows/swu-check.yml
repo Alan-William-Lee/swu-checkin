@@ -4,7 +4,7 @@ on:
   # Run daily at 21:10 Asia/Shanghai (Beijing) time.
   # GitHub cron uses UTC, Beijing = UTC+8 → 21:10 CST = 13:10 UTC
   schedule:
-    - cron: '13 13 * * *'
+    - cron: '09 13 * * *'
   # Allow manual trigger
   workflow_dispatch:
 
