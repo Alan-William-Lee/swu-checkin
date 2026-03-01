@@ -30,5 +30,6 @@ jobs:
           TZ: Asia/Shanghai
           SWU_USERNAME: ${{ secrets.SWU_USERNAME }}
           SWU_PASSWORD: ${{ secrets.SWU_PASSWORD }}
+          NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
         run: |
           python -u scripts/main.py
